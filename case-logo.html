@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LOGO · VI 设计 · 案例详情 | JAKE VOICE · CHRONOS ARTISTRY</title>
+<meta name="description" content="LOGO · VI 设计案例：品牌标识、视觉识别系统与空间平面设计，15 张完整过程图，涵盖标识方案、标准字、色彩规范与 VI 应用系统。" />
+<link rel="stylesheet" href="style.css" />
+<style>
+  /* case-study specific styles */
+  .case-hero{position:relative;padding:104px 0 64px;overflow:hidden;border-bottom:1px solid var(--line);}
+  .case-hero::before{content:"";position:absolute;top:-180px;right:-120px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(200,169,91,.11),transparent 62%);pointer-events:none;}
+  .case-hero .hero-inner{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;padding:0 32px;}
+  .case-tag{display:inline-block;background:var(--gold);color:#fff;font-size:11px;font-weight:bold;letter-spacing:2px;padding:5px 14px;border-radius:var(--radius);margin-bottom:18px;}
+  .case-hero h1{font-size:clamp(32px,4.5vw,48px);font-weight:bold;line-height:1.1;letter-spacing:1px;margin-bottom:16px;}
+  .case-hero h1 em{color:var(--gold);font-style:normal;}
+  .case-meta{display:flex;gap:28px;flex-wrap:wrap;margin-top:20px;font-size:13px;color:var(--muted);}
+  .case-meta span b{color:var(--text);font-weight:bold;}
+  .hero-img{margin-top:40px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);}
+  .wrap{max-width:900px;margin:0 auto;padding:0 32px;}
+  section{padding:74px 0;}
+  .sec-label{display:inline-block;font-size:10px;font-weight:bold;letter-spacing:3px;color:var(--gold);text-transform:uppercase;margin-bottom:8px;}
+  h2{font-size:26px;font-weight:bold;letter-spacing:.8px;margin-bottom:16px;line-height:1.3;}
+  h2 em{color:var(--gold);font-style:normal;}
+  p{color:var(--muted);font-size:15px;margin-bottom:14px;line-height:1.85;}
+  p strong{color:var(--text);}
+  .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:30px 0;}
+  .gallery figure{overflow:hidden;border-radius:var(--radius);border:1px solid var(--line);}
+  .gallery img{width:100%;border-radius:var(--radius);transition:.4s;}
+  .gallery figure:hover img{transform:scale(1.05);}
+  .gallery figcaption{padding:10px 12px 0;font-size:11.5px;color:var(--gold-d);letter-spacing:.5px;}
+  .outcomes{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:30px 0;}
+  .outcome-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:28px 22px;text-align:center;transition:.25s;}
+  .outcome-card:hover{border-color:var(--gold-d);transform:translateY(-2px);box-shadow:0 8px 30px rgba(156,126,54,.08);}
+  .outcome-card .icon{font-size:28px;margin-bottom:12px;}
+  .outcome-card h3{font-size:15px;font-weight:bold;margin-bottom:8px;}
+  .outcome-card p{font-size:13px;}
+  blockquote{border-left:3px solid var(--gold);background:var(--panel-2);padding:22px 28px;margin:30px 0;border-radius:0 var(--radius) var(--radius) 0;font-size:16px;color:var(--text);font-style:italic;line-height:1.7;}
+  .cta-box{background:linear-gradient(135deg,var(--panel-2),var(--panel));border:1px solid var(--gold-d);border-radius:var(--radius);padding:48px 40px;text-align:center;margin:50px 0;}
+  .cta-box h2{margin-bottom:12px;}
+  .cta-box p{max-width:600px;margin:0 auto 28px;}
+  @media(max-width:700px){.gallery{grid-template-columns:1fr;}.outcomes{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><b>JAKE</b> VOICE<span>· CHRONOS ARTISTRY</span></a>
+    <button class="nav-toggle" aria-label="菜单"><span></span><span></span><span></span></button>
+    <div class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="about.html">关于我</a>
+      <div class="nav-item">
+        <a href="works.html">作品</a>
+        <div class="nav-dropdown">
+          <a href="works.html#industrial">工业设计</a>
+          <a href="works.html#lighting">灯具产品设计</a>
+          <a href="works.html#smartcity">智慧城市 文化定制</a>
+          <a href="works.html#architecture">建筑 光影艺术</a>
+          <a href="works.html#logo">LOGO · VI 设计</a>
+        </div>
+      </div>
+      <a href="services.html">服务报价</a>
+      <a href="process.html">流程</a>
+      <a href="contact.html">联系我们</a>
+    </div>
+    <a href="contact.html" class="nav-cta">委托合作</a>
+  </div>
+</nav>
+
+<!-- ═══ CASE HERO ═══ -->
+<header class="case-hero">
+  <div class="hero-inner">
+    <span class="case-tag reveal">CASE STUDY · 案例详情</span>
+    <h1 class="reveal d1">LOGO <em>· VI 设计</em></h1>
+    <p class="reveal d2" style="color:var(--muted);font-size:16px;max-width:680px;">
+      品牌标识、视觉识别系统与空间平面设计。从 <strong style="color:var(--text);">LOGO 造型、标准字</strong> 到 VI 应用规范，构建完整而克制的品牌视觉语言，让标识在不同尺度与介质上都稳定、好记、可落地。
+    </p>
+    <div class="case-meta reveal d2">
+      <span><b>领域：</b>品牌视觉 / 平面设计</span>
+      <span><b>类型：</b>LOGO / VI 系统</span>
+      <span><b>核心：</b>标识造型 + VI 规范</span>
+      <span><b>交付物：</b>15 张过程图</span>
+    </div>
+    <div class="hero-img reveal d2">
+      <img src="assets/4 (1).png.webp" alt="LOGO · VI 设计 主视觉" loading="eager"/>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ BACKGROUND ═══ -->
+<section>
+  <div class="wrap">
+    <div class="reveal">
+      <span class="sec-label">01 · Background</span>
+      <h2>项目<em>背景</em></h2>
+      <p>品牌视觉是设计的第一句话。我们为多个品牌提供从标识到 VI 应用规范的完整视觉系统，让一个符号在不同场景里都保持一致的性格与质感。</p>
+      <p>相较灯光与产品，平面视觉更考验「克制」——少即是多，把复杂的信息收进一套能自我繁殖的规则里。</p>
+    </div>
+    <blockquote class="reveal">「一个好的标识，不是画出来的，是被约束出来的。」<br><span style="font-size:13px;color:var(--muted);margin-top:8px;display:block;">— JAKE 设计哲学</span></blockquote>
+    <div class="reveal">
+      <span class="sec-label">02 · Challenge</span>
+      <h2>设计<em>挑战</em></h2>
+      <p><strong>挑战一：可识别。</strong>在信息过载的环境里，一眼被记住、被区分。</p>
+      <p><strong>挑战二：可延展。</strong>从名片、包装到空间导视与屏幕界面，都要统一不漂移。</p>
+      <p><strong>挑战三：可落地。</strong>交付物是能直接用于生产的规范文件，而非几张好看的图。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ DESIGN DETAIL ═══ -->
+<section style="background:var(--panel-2);">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="sec-label">03 · Design Detail</span>
+      <h2>造型、色彩与<em>规范</em></h2>
+      <p>从标识造型推敲，到标准字、色彩系统与网格、安全空间的界定，建立明确的禁止示例与最小应用尺寸，确保品牌在任何介质都「长得一样」。</p>
+    </div>
+    <div class="gallery reveal">
+      <figure><img src="assets/4 (1).png.webp" alt="LOGO · VI 设计 — 01" loading="lazy"/><figcaption>过程图 01 · 标识方案</figcaption></figure>
+      <figure><img src="assets/4 (1).jpg.webp" alt="LOGO · VI 设计 — 02" loading="lazy"/><figcaption>过程图 02 · 应用稿</figcaption></figure>
+      <figure><img src="assets/4 (2).png.webp" alt="LOGO · VI 设计 — 03" loading="lazy"/><figcaption>过程图 03 · 造型推敲</figcaption></figure>
+      <figure><img src="assets/4 (2).jpg.webp" alt="LOGO · VI 设计 — 04" loading="lazy"/><figcaption>过程图 04 · 应用稿</figcaption></figure>
+      <figure><img src="assets/4 (3).png.webp" alt="LOGO · VI 设计 — 05" loading="lazy"/><figcaption>过程图 05 · 标准字</figcaption></figure>
+      <figure><img src="assets/4 (3).jpg.webp" alt="LOGO · VI 设计 — 06" loading="lazy"/><figcaption>过程图 06 · 应用稿</figcaption></figure>
+      <figure><img src="assets/4 (4).png.webp" alt="LOGO · VI 设计 — 07" loading="lazy"/><figcaption>过程图 07 · 色彩系统</figcaption></figure>
+      <figure><img src="assets/4 (4).jpg.webp" alt="LOGO · VI 设计 — 08" loading="lazy"/><figcaption>过程图 08 · 应用稿</figcaption></figure>
+      <figure><img src="assets/4 (5).png.webp" alt="LOGO · VI 设计 — 09" loading="lazy"/><figcaption>过程图 09 · 组合规范</figcaption></figure>
+      <figure><img src="assets/4 (6).png.webp" alt="LOGO · VI 设计 — 10" loading="lazy"/><figcaption>过程图 10 · 网格与比例</figcaption></figure>
+      <figure><img src="assets/4 (7).png.webp" alt="LOGO · VI 设计 — 11" loading="lazy"/><figcaption>过程图 11 · 反白规范</figcaption></figure>
+      <figure><img src="assets/4 (8).png.webp" alt="LOGO · VI 设计 — 12" loading="lazy"/><figcaption>过程图 12 · 应用示例</figcaption></figure>
+      <figure><img src="assets/4 (9).png.webp" alt="LOGO · VI 设计 — 13" loading="lazy"/><figcaption>过程图 13 · 延展图形</figcaption></figure>
+      <figure><img src="assets/4 (10).png.webp" alt="LOGO · VI 设计 — 14" loading="lazy"/><figcaption>过程图 14 · 场景应用</figcaption></figure>
+      <figure style="grid-column:1 / -1;"><img src="assets/4 (11).png.webp" alt="LOGO · VI 设计 — 15" loading="lazy"/><figcaption>过程图 15 · VI 系统总览</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ OUTCOMES ═══ -->
+<section>
+  <div class="wrap">
+    <div class="reveal"><span class="sec-label">04 · Outcomes</span><h2>交付<em>成果</em></h2></div>
+    <div class="outcomes reveal">
+      <div class="outcome-card"><div class="icon">✦</div><h3>标识系统</h3><p>造型 + 标准字<br>可识别</p></div>
+      <div class="outcome-card"><div class="icon">◆</div><h3>VI 规范</h3><p>色彩 + 网格<br>可延展</p></div>
+      <div class="outcome-card"><div class="icon">◈</div><h3>平面应用</h3><p>名片到空间<br>可落地</p></div>
+    </div>
+    <blockquote class="reveal" style="margin-top:40px;">当一套 VI 规范被严格遵守，品牌便不再依赖某一张海报——它自己会说话。</blockquote>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══ -->
+<section>
+  <div class="wrap">
+    <div class="cta-box reveal">
+      <h2>你的品牌，也值得一套会说自己话的视觉</h2>
+      <p>无论是 LOGO 设计、VI 系统搭建，还是空间平面与导视——20 年工业与品牌设计实战，为你提供从造型到规范的一站式服务。</p>
+      <div><a href="services.html" class="btn btn-gold">查看服务与报价 →</a><a href="contact.html" class="btn btn-ghost">联系委托合作</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <span class="ft-brand">JAKE VOICE · CHRONOS ARTISTRY</span> — 拾光而行，造物有声<br>
+  <span class="ft-sub">Industrial Design · Lighting Design · Full-Cycle Product Development</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

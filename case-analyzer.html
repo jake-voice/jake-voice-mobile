@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>精密仪器系列 · 流量计 / 控制器 / 分析仪 | JAKE VOICE · CHRONOS ARTISTRY</title>
+<meta name="description" content="精密仪器系列（流量计 / 控制器 / 分析仪）产品外观 ID 与结构级建模设计案例，3 张完整过程图。" />
+<link rel="stylesheet" href="style.css" />
+<style>
+  /* case-study specific styles */
+  .case-hero{position:relative;padding:104px 0 64px;overflow:hidden;border-bottom:1px solid var(--line);}
+  .case-hero::before{content:"";position:absolute;top:-180px;right:-120px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(200,169,91,.11),transparent 62%);pointer-events:none;}
+  .case-hero .hero-inner{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;padding:0 32px;}
+  .case-tag{display:inline-block;background:var(--gold);color:#fff;font-size:11px;font-weight:bold;letter-spacing:2px;padding:5px 14px;border-radius:var(--radius);margin-bottom:18px;}
+  .case-hero h1{font-size:clamp(32px,4.5vw,48px);font-weight:bold;line-height:1.1;letter-spacing:1px;margin-bottom:16px;}
+  .case-hero h1 em{color:var(--gold);font-style:normal;}
+  .case-meta{display:flex;gap:28px;flex-wrap:wrap;margin-top:20px;font-size:13px;color:var(--muted);}
+  .case-meta span b{color:var(--text);font-weight:bold;}
+  .hero-img{margin-top:40px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);}
+  .wrap{max-width:900px;margin:0 auto;padding:0 32px;}
+  section{padding:74px 0;}
+  .sec-label{display:inline-block;font-size:10px;font-weight:bold;letter-spacing:3px;color:var(--gold);text-transform:uppercase;margin-bottom:8px;}
+  h2{font-size:26px;font-weight:bold;letter-spacing:.8px;margin-bottom:16px;line-height:1.3;}
+  h2 em{color:var(--gold);font-style:normal;}
+  p{color:var(--muted);font-size:15px;margin-bottom:14px;line-height:1.85;}
+  p strong{color:var(--text);}
+  .full-img{margin:36px 0;position:relative;}
+  .full-img img{border-radius:var(--radius);border:1px solid var(--line);}
+  .full-img figcaption{margin-top:12px;font-size:12.5px;color:var(--muted);text-align:center;letter-spacing:.5px;font-style:italic;}
+  .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:30px 0;}
+  .gallery figure{overflow:hidden;border-radius:var(--radius);border:1px solid var(--line);}
+  .gallery img{width:100%;border-radius:var(--radius);transition:.4s;}
+  .gallery figure:hover img{transform:scale(1.05);}
+  .gallery figcaption{padding:10px 12px 0;font-size:11.5px;color:var(--gold-d);letter-spacing:.5px;}
+  .outcomes{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:30px 0;}
+  .outcome-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:28px 22px;text-align:center;transition:.25s;}
+  .outcome-card:hover{border-color:var(--gold-d);transform:translateY(-2px);box-shadow:0 8px 30px rgba(156,126,54,.08);}
+  .outcome-card .icon{font-size:28px;margin-bottom:12px;}
+  .outcome-card h3{font-size:15px;font-weight:bold;margin-bottom:8px;}
+  .outcome-card p{font-size:13px;}
+  blockquote{border-left:3px solid var(--gold);background:var(--panel-2);padding:22px 28px;margin:30px 0;border-radius:0 var(--radius) var(--radius) 0;font-size:16px;color:var(--text);font-style:italic;line-height:1.7;}
+  .cta-box{background:linear-gradient(135deg,var(--panel-2),var(--panel));border:1px solid var(--gold-d);border-radius:var(--radius);padding:48px 40px;text-align:center;margin:50px 0;}
+  .cta-box h2{margin-bottom:12px;}
+  .cta-box p{max-width:600px;margin:0 auto 28px;}
+  @media(max-width:700px){.gallery{grid-template-columns:1fr;}.outcomes{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><b>JAKE</b> VOICE<span>· CHRONOS ARTISTRY</span></a>
+    <button class="nav-toggle" aria-label="菜单"><span></span><span></span><span></span></button>
+    <div class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="about.html">关于我</a>
+      <div class="nav-item">
+        <a href="works.html">作品</a>
+        <div class="nav-dropdown">
+          <a href="works.html#industrial">工业设计</a>
+          <a href="works.html#lighting">灯具产品设计</a>
+          <a href="works.html#smartcity">智慧城市 文化定制</a>
+          <a href="works.html#architecture">建筑 光影艺术</a>
+          <a href="works.html#logo">LOGO · VI 设计</a>
+        </div>
+      </div>
+      <a href="services.html">服务报价</a>
+      <a href="process.html">流程</a>
+      <a href="contact.html">联系我们</a>
+    </div>
+    <a href="contact.html" class="nav-cta">委托合作</a>
+  </div>
+</nav>
+
+<!-- ═══ CASE HERO ═══ -->
+<header class="case-hero">
+  <div class="hero-inner">
+    <span class="case-tag reveal">CASE STUDY · 案例详情</span>
+    <h1 class="reveal d1">精密仪器系列 <em>EM Instrument</em></h1>
+    <p class="reveal d2" style="color:var(--muted);font-size:16px;max-width:680px;">
+      涵盖<strong style="color:var(--text);">流量计 / 控制器 / 分析仪</strong>的精密仪器产品外观设计。在严苛的工程约束下，以结构级 3D 建模与严谨的 CMF 语言，塑造兼具专业感与品牌辨识度的工业产品形态。
+    </p>
+    <div class="case-meta reveal d2">
+      <span><b>领域：</b>精密仪器 / 工业检测</span>
+      <span><b>系列：</b>流量计 · 控制器 · 分析仪</span>
+      <span><b>阶段：</b>ID → 3D 建模</span>
+      <span><b>交付物：</b>3 张过程图</span>
+    </div>
+    <div class="hero-img reveal d2">
+      <img src="assets/1 (10).png.webp" alt="精密仪器系列 — 分析仪主视觉" loading="eager"/>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ BACKGROUND ═══ -->
+<section>
+  <div class="wrap">
+    <div class="reveal">
+      <span class="sec-label">01 · Background</span>
+      <h2>项目<em>背景</em></h2>
+      <p>精密仪器是工业现场的「眼睛」与「神经」，其外观设计必须在<strong>防护等级、操作逻辑、读数与接口排布</strong>等硬约束下展开。同时，仪器作为专业用户的日常工具，造型还需传递稳定、可靠、可信赖的品牌气质。</p>
+      <p>本项目以「分析仪」为核心展开，并延伸至同系列的流量计与控制器，形成统一的产品家族语言——在共享结构平台与设计 DNA 的前提下，让不同型号既彼此呼应，又保有各自的识别特征。</p>
+    </div>
+    <blockquote class="reveal">「精密仪器的设计，是把看不见的工程严谨，转化为看得见的冷静与秩序。」<br><span style="font-size:13px;color:var(--muted);margin-top:8px;display:block;">— JAKE 设计哲学</span></blockquote>
+    <div class="reveal">
+      <span class="sec-label">02 · Challenge</span>
+      <h2>设计<em>挑战</em></h2>
+      <p><strong>挑战一：工程即约束。</strong>防护、散热、接口与人机操作位置需与内部结构高度耦合，造型不能脱离功能独立存在。</p>
+      <p><strong>挑战二：家族化表达。</strong>多型号共用设计语言，需在有限改型内实现一致的品牌识别与差异化的型号区分。</p>
+      <p><strong>挑战三：专业信任感。</strong>以克制的面分割、精确的比例与 CMF 语言，传递仪器应有的冷静、严谨与可靠。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ID CONCEPT ═══ -->
+<section style="background:var(--panel-2);">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="sec-label">03 · ID Concept</span>
+      <h2>外观<em>方案</em></h2>
+      <p>从功能分区出发组织面分割与体块关系，明确显示区、操作区与接口区的视觉层级。圆角、分模线与标识的排布经过精密推敲，确保多视角下的形态一致与专业气质。</p>
+    </div>
+    <div class="full-img reveal">
+      <img src="assets/1 (11).png.webp" alt="精密仪器系列 — ID 外观方案" loading="lazy"/>
+      <figcaption>ID 外观方案 · 形态与面分割推敲</figcaption>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 3D MODELING ═══ -->
+<section>
+  <div class="wrap">
+    <div class="reveal">
+      <span class="sec-label">04 · 3D Modeling</span>
+      <h2>结构级 3D <em>建模</em></h2>
+      <p>采用结构级精度建模，预留内部走线、安装接口与散热等工程要素，模型可直接对接下游结构与生产团队。整体以严谨的比例关系与可量产工艺边界完成推敲，让设计方案真正具备落地条件。</p>
+    </div>
+    <div class="full-img reveal">
+      <img src="assets/1 (12).png.webp" alt="精密仪器系列 — 3D 建模表现" loading="lazy"/>
+      <figcaption>3D 建模表现 · 整机与细部结构</figcaption>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ OUTCOMES ═══ -->
+<section style="background:var(--panel-2);">
+  <div class="wrap">
+    <div class="reveal"><span class="sec-label">05 · Outcomes</span><h2>交付<em>成果</em></h2></div>
+    <div class="outcomes reveal">
+      <div class="outcome-card"><div class="icon">✦</div><h3>ID 外观方案</h3><p>家族化语言<br>统一 DNA · 型号区分</p></div>
+      <div class="outcome-card"><div class="icon">◆</div><h3>结构级 3D 模型</h3><p>预留生产接口<br>可对接下游工程</p></div>
+      <div class="outcome-card"><div class="icon">◈</div><h3>CMF 与源文件</h3><p>严谨材质语言<br>可指定格式交付</p></div>
+    </div>
+    <blockquote class="reveal" style="margin-top:40px;">精密仪器的设计美学，不靠装饰取胜，而靠<strong>秩序、比例与克制</strong>——当每一个面、每一条线都服务于功能与信任，产品自然就拥有了专业应有的力量感。</blockquote>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══ -->
+<section>
+  <div class="wrap">
+    <div class="cta-box reveal">
+      <h2>你的下一个产品，从这里开始</h2>
+      <p>无论是消费电子、小家电、家居五金，还是精密仪器与工业设备——20 年全流程经验，为你提供从概念到量产的一站式设计服务。</p>
+      <div><a href="services.html" class="btn btn-gold">查看服务与报价 →</a><a href="contact.html" class="btn btn-ghost">联系委托合作</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <span class="ft-brand">JAKE VOICE · CHRONOS ARTISTRY</span> — 拾光而行，造物有声<br>
+  <span class="ft-sub">Industrial Design · Lighting Design · Full-Cycle Product Development</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# ── 原始位图源文件（网站已改用 WebP，本地仍保留作为备份）──
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+
+# ── 图片压缩 / 处理脚本与日志（非站点内容）──
+optimize_images.py
+fix_html.py
+add_coming_soon.py
+optimize_report*.txt
+optimize_err.txt
+out.log
